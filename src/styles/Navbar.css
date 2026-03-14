@@ -1,0 +1,23 @@
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 40px;
+  background-color: #0f1524;
+}
+
+.navbar-logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.navbar-logo h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.accent {
+  color: #4f8ef7;
+}
