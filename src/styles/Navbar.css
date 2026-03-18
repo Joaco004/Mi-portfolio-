@@ -1,3 +1,15 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+  background-color: #0f1524;
+  border-bottom: 1px solid #1e2a3a;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .navbar-logo {
   display: flex;
   align-items: center;
@@ -20,4 +32,60 @@
 
 .accent {
   color: #4f8ef7;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+}
+
+.navbar-links a {
+  color: #8892a4;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #ffffff;
+}
+
+/* Botones */
+.navbar-bottons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btt-cv {
+  background: transparent;
+  border: 1px solid #4f8ef7;
+  color: #4f8ef7;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btt-cv:hover {
+  background: #4f8ef7;
+  color: #ffffff;
+}
+
+.btt-contact {
+  background: #e53935;
+  border: none;
+  color: #ffffff;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btt-contact:hover {
+  background: #c62828;
 }
