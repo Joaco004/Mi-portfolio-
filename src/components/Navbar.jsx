@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-logo">
                 <img src={logo} alt="logo" />
-                <h1> Joaquin Garinei <span className="accent">Full Stack Developer</span></h1>
+                <h1><a href="https://www.linkedin.com/in/joaquin-garinei-892654304/">Joaquin Garinei <span className="accent">Full Stack Developer</span></a></h1>
             </div>
 
             <ul className="navbar-links">
