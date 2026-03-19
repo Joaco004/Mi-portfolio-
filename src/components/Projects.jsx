@@ -26,7 +26,8 @@ export const proyectos = [
             "Interacción Dinámica: Uso de Hooks avanzados y manejo de estado global para una navegación rápida sin recargas de página."
         ],
         techs: ["React.js", "Context API", "Tailwind CSS", "React Router", "Node.js", "Express", "Mongoose", "MongoDB", "JSON", "Cloudinary", "Postman" ],
-        link: "",
+        linkFrontend: "https://github.com/Joaco004/Proyecto-final-frontend",
+        linkBackend: "https://github.com/Joaco004/Proyecto-final-backend",
         deploy: ""
     },
     {

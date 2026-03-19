@@ -51,6 +51,16 @@ const ProjectDetail = () => {
                             Ver repositorio →
                         </a>
                     )}
+                    {proyecto.linkFrontend && (
+                        <a href={proyecto.linkFrontend} target="_blank" rel="noreferrer" className="btn-repo">
+                            Repositorio Frontend →
+                        </a>
+                    )}
+                    {proyecto.linkBackend && (
+                        <a href={proyecto.linkBackend} target="_blank" rel="noreferrer" className="btn-repo">
+                            Repositorio Backend →
+                        </a>
+                    )}
                     {proyecto.deploy && (
                         <a href={proyecto.deploy} target="_blank" rel="noreferrer" className="btn-deploy">
                             Ver proyecto en vivo →
