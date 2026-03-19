@@ -18,6 +18,15 @@
   background-color: #0f1524;
 }
 
+.navbar-logo a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-logo a:hover {
+  color: #ffffff;
+}
+
 .navbar-logo img {
   width: 40px;
   height: 40px;
