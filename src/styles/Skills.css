@@ -1,0 +1,75 @@
+.skills {
+    padding: 80px 40px;
+    border-top: 1px solid #1e2a3a;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    margin-bottom: 60px;
+}
+
+.titulo h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.titulo p {
+    color: #8892a4;
+    font-size: 1rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.front, .back, .tools, .database {
+    background: #0f1524;
+    border: 1px solid #1e2a3a;
+    border-radius: 12px;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: border-color 0.3s ease;
+}
+
+.front:hover, .back:hover, .tools:hover, .database:hover {
+    border-color: #4f8ef7;
+}
+
+.front h3, .back h3, .tools h3, .database h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.tech-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #8892a4;
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    border: 1px solid #1e2a3a;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    width: fit-content;
+}
+
+.tech-item:hover {
+    border-color: #4f8ef7;
+    color: #ffffff;
+}
+
+.tech-item svg {
+    font-size: 1.1rem;
+    color: #4f8ef7;
+}
