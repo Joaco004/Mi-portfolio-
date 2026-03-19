@@ -51,6 +51,15 @@
   background: #3a7be0;
 }
 
+.btn-primary a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-primary a:hover {
+  color: #ffffff;
+}
+
 .btn-secundary {
   background: transparent;
   color: #ffffff;
