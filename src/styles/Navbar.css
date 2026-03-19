@@ -32,6 +32,7 @@
 
 .accent {
   color: #4f8ef7;
+  text-transform: uppercase;
 }
 
 .navbar-links {
