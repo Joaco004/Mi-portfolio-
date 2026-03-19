@@ -1,4 +1,4 @@
-import '../styles/About.css'
+import '../styles/components/About.css'
 import { FaReact } from 'react-icons/fa'
 import { SiJavascript } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa'

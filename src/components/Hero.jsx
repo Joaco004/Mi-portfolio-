@@ -1,5 +1,5 @@
 import foto from "../assets/kanye-perfil.jpg"
-import '../styles/Hero.css'
+import '../styles/components/Hero.css'
 
 const Hero = () => {
 

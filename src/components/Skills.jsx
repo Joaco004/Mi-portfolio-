@@ -1,4 +1,4 @@
-import '../styles/Skills.css'
+import '../styles/components/Skills.css'
 import { FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub } from 'react-icons/fa'
 import { SiJavascript, SiTypescript, SiTailwindcss, SiRender } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa'

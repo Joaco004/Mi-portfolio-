@@ -1,5 +1,5 @@
 import logo from '../assets/logo.png'
-import '../styles/Navbar.css'
+import '../styles/components/Navbar.css'
 
 
 const Navbar = () => {

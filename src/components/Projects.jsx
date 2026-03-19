@@ -1,4 +1,4 @@
-import '../styles/Proyects.css'
+import '../styles/components/Projects.css'
 import { useNavigate } from 'react-router-dom'
 import tecnostore from '../assets/tecnostore.png'
 import jaypee from '../assets/jaypee.png'
