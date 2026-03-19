@@ -1,0 +1,93 @@
+.about-sct {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 80px 40px;
+  gap: 60px;
+  min-height: 100vh;
+}
+
+/* Columna izquierda */
+.descrp {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 55%;
+}
+
+.descrp h1 {
+  font-size: 0.85rem;
+  color: #4f8ef7;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.descrp h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.descrp p {
+  color: #8892a4;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.ubi,
+.edu {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ubi h2,
+.edu h2 {
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.ubi p,
+.edu p {
+  color: #8892a4;
+  font-size: 0.9rem;
+}
+
+/* Columna derecha - tecnologías */
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 300px;
+}
+
+.tech-stack h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #0f1524;
+  border: 1px solid #1e2a3a;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: #8892a4;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.tech-item:hover {
+  border-color: #4f8ef7;
+  color: #ffffff;
+}
+
+.tech-item svg {
+  font-size: 1.4rem;
+  color: #4f8ef7;
+}
