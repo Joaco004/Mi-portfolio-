@@ -18,7 +18,7 @@ const ProjectDetail = () => {
 
             <div className="detail-header">
                 <span className="project-state">{proyecto.state}</span>
-                <h1>{proyecto.titulo}</h1>
+                <h1>{proyecto.tituloLargo}</h1>
                 <p className="detail-desc">{proyecto.descripcion}</p>
             </div>
 
@@ -29,6 +29,13 @@ const ProjectDetail = () => {
                 <div className="detail-info">
                     <h2>Sobre el Proyecto</h2>
                     <p>{proyecto.descripcionLarga}</p>
+                    {proyecto.features && (
+                        <ul className="detail-features">
+                            {proyecto.features.map((feature, index) => (
+                                <li key={index}>{feature}</li>
+                            ))}
+                        </ul>
+                    )}
                 </div>
 
                 <div className="detail-sidebar">
