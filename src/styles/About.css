@@ -54,6 +54,11 @@
   font-size: 0.9rem;
 }
 
+.info-row {
+  display: flex;
+  gap: 40px;
+}
+
 /* Columna derecha - tecnologías */
 .tech-stack {
   display: flex;
