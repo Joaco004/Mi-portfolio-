@@ -1,4 +1,4 @@
-.about-sct {
+.about {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -58,6 +58,7 @@
   display: flex;
   gap: 40px;
 }
+
 
 /* Columna derecha - tecnologías */
 .tech-stack {

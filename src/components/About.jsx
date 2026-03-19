@@ -6,7 +6,7 @@ import { SiMongodb } from 'react-icons/si'
 
 const About = () => {
     return (
-        <section id="about" className="about-sct">
+        <section id="about" className="about">
             <div className="descrp">
                 <h1>SOBRE MÍ</h1>
                 <h2>Mi camino en el desarrollo de software</h2>
