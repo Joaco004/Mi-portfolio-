@@ -1,0 +1,60 @@
+import { useParams, useNavigate } from 'react-router-dom'
+import { proyectos } from '../components/Projects'
+import '../styles/pages/ProjectDetail.css'
+
+const ProjectDetail = () => {
+    const { id } = useParams()
+    const navigate = useNavigate()
+    const proyecto = proyectos.find(p => p.id === parseInt(id))
+
+    if (!proyecto) return <p>Proyecto no encontrado</p>
+
+    return (
+        <section className="detail">
+
+            <button className="btn-back" onClick={() => navigate('/')}>
+                ← Volver a Proyectos
+            </button>
+
+            <div className="detail-header">
+                <span className="project-state">{proyecto.state}</span>
+                <h1>{proyecto.titulo}</h1>
+                <p className="detail-desc">{proyecto.descripcion}</p>
+            </div>
+
+            <img src={proyecto.img} alt={proyecto.titulo} className="detail-img" />
+
+            <div className="detail-body">
+
+                <div className="detail-info">
+                    <h2>Sobre el Proyecto</h2>
+                    <p>{proyecto.descripcionLarga}</p>
+                </div>
+
+                <div className="detail-sidebar">
+                    <h2>Tecnologías</h2>
+                    <div className="detail-techs">
+                        {proyecto.techs.map((tech, index) => (
+                            <span key={index}>{tech}</span>
+                        ))}
+                    </div>
+
+                    {proyecto.link && (
+                        <a href={proyecto.link} target="_blank" rel="noreferrer" className="btn-repo">
+                            Ver repositorio →
+                        </a>
+                    )}
+                    {proyecto.deploy && (
+                        <a href={proyecto.deploy} target="_blank" rel="noreferrer" className="btn-deploy">
+                            Ver proyecto en vivo →
+                        </a>
+                    )}
+                </div>
+
+            </div>
+
+        </section>
+    )
+}
+
+export default ProjectDetail
