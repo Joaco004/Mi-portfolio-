@@ -74,6 +74,29 @@
     line-height: 1.8;
 }
 
+.detail-features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.detail-features li {
+    color: #8892a4;
+    font-size: 0.9rem;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.6;
+}
+
+.detail-features li::before {
+    content: "→";
+    color: #4f8ef7;
+    position: absolute;
+    left: 0;
+}
+
 .detail-sidebar {
     display: flex;
     flex-direction: column;

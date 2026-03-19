@@ -75,6 +75,14 @@
     gap: 8px;
 }
 
+.prject-info p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 .project-state {
     background: transparent;
     border: 1px solid #4f8ef7;
