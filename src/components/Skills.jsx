@@ -9,6 +9,7 @@ const Skills = () => {
     return (
         <section id="skills" className="skills">
             <div className="titulo">
+                <h1>SKILLS</h1>
                 <h2>Habilidades técnicas</h2>
                 <p>Estas son las tecnlogías y herramientas con las que trabajo habitualmente</p>
             </div>

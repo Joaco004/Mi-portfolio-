@@ -3,26 +3,30 @@ import '../styles/Navbar.css'
 
 
 const Navbar = () => {
-    return(
-            <nav className="navbar">
-                <div className="navbar-logo">
+    return (
+        <nav className="navbar">
+            <div className="navbar-logo">
                 <img src={logo} alt="logo" />
                 <h1><a href="https://www.linkedin.com/in/joaquin-garinei-892654304/" target="_blank" rel="noreferrer">Joaquin Garinei <span className="accent">Full Stack Developer</span></a></h1>
-                </div>
+            </div>
 
-                <ul className="navbar-links">
-                    <li><a href="#hero">Inicio</a></li>
-                    <li><a href="#about">Sobre mí</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
+            <ul className="navbar-links">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
 
-                <div className="navbar-bottons">
+            <div className="navbar-bottons">
+                <a href="/cv.pdf" download="CV-Joaquin-Garinei.pdf">
                     <button className="btt-cv">Descargar CV</button>
+                </a>
+                <a href="https://wa.me/5491122900283" target="_blank" rel="noreferrer">
                     <button className="btt-contact">Contactarme</button>
-                </div>
-            </nav>
+                </a>
+            </div>
+        </nav>
     )
 }
 

@@ -12,6 +12,13 @@
     margin-bottom: 60px;
 }
 
+.titulo h1 {
+    font-size: 0.85rem;
+    color: #4f8ef7;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
 .titulo h2 {
     font-size: 2.5rem;
     font-weight: 800;
@@ -27,9 +34,14 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-.front, .back, .tools, .database {
+.front,
+.back,
+.tools,
+.database {
     background: #0f1524;
     border: 1px solid #1e2a3a;
     border-radius: 12px;
@@ -40,11 +52,17 @@
     transition: border-color 0.3s ease;
 }
 
-.front:hover, .back:hover, .tools:hover, .database:hover {
+.front:hover,
+.back:hover,
+.tools:hover,
+.database:hover {
     border-color: #4f8ef7;
 }
 
-.front h3, .back h3, .tools h3, .database h3 {
+.front h3,
+.back h3,
+.tools h3,
+.database h3 {
     font-size: 1.2rem;
     font-weight: 700;
     color: #ffffff;
