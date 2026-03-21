@@ -97,3 +97,19 @@
   font-size: 1.4rem;
   color: #4f8ef7;
 }
+
+@media (max-width: 768px) {
+    .about-sct {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .descrp {
+        max-width: 100%;
+    }
+
+    .tech-stack {
+        min-width: unset;
+        width: 100%;
+    }
+}

@@ -99,3 +99,19 @@
 .btt-contact:hover {
   background: #c62828;
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        gap: 16px;
+        padding: 16px 20px;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .navbar-bottons {
+        gap: 8px;
+    }
+}

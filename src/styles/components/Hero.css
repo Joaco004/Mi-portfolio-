@@ -89,3 +89,25 @@
   border: 3px solid #4f8ef7;
   box-shadow: 0 0 40px rgba(79, 142, 247, 0.3);
 }
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-img img {
+        width: 220px;
+        height: 220px;
+    }
+}

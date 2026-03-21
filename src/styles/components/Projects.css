@@ -135,3 +135,13 @@
 .btn-detalle:hover {
     color: #ffffff;
 }
+
+@media (max-width: 768px) {
+    .projects {
+        padding: 40px 20px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
