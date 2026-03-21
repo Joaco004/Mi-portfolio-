@@ -1,13 +1,13 @@
-.about {
+.about-sct {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   padding: 80px 40px;
   gap: 60px;
   min-height: 100vh;
+  border-top: 1px solid #1e2a3a;
 }
 
-/* Columna izquierda */
 .descrp {
   display: flex;
   flex-direction: column;
@@ -34,11 +34,9 @@
   line-height: 1.8;
 }
 
-.ubi,
-.edu {
+.info-row {
   display: flex;
-  flex-direction: column;
-  gap: 4px;
+  gap: 40px;
 }
 
 .ubi h2,
@@ -54,13 +52,6 @@
   font-size: 0.9rem;
 }
 
-.info-row {
-  display: flex;
-  gap: 40px;
-}
-
-
-/* Columna derecha - tecnologías */
 .tech-stack {
   display: flex;
   flex-direction: column;
@@ -99,17 +90,27 @@
 }
 
 @media (max-width: 768px) {
-    .about-sct {
-        flex-direction: column;
-        padding: 40px 20px;
-    }
+  .about-sct {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 40px;
+    min-height: unset;
+  }
 
-    .descrp {
-        max-width: 100%;
-    }
+  .descrp {
+    max-width: 100%;
+  }
 
-    .tech-stack {
-        min-width: unset;
-        width: 100%;
-    }
+  .tech-stack {
+    min-width: unset;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #1e2a3a;
+
+  }
+
+  .info-row {
+    gap: 24px;
+  }
 }
