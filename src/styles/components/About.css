@@ -40,13 +40,15 @@
     gap: 40px;
 }
 
-.ubi h2, .edu h2 {
+.ubi h2,
+.edu h2 {
     font-size: 1rem;
     color: #ffffff;
     font-weight: 600;
 }
 
-.ubi p, .edu p {
+.ubi p,
+.edu p {
     color: #8892a4;
     font-size: 0.9rem;
 }

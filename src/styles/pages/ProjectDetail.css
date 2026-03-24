@@ -169,3 +169,17 @@
 .btn-deploy:hover {
     background: #3a7be0;
 }
+
+@media (max-width: 768px) {
+    .detail {
+        padding: 20px;
+    }
+
+    .detail-body {
+        grid-template-columns: 1fr;
+    }
+
+    .detail-header h1 {
+        font-size: 1.6rem;
+    }
+}
