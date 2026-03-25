@@ -1,4 +1,4 @@
-import foto from "../assets/kanye-perfil.jpg"
+import foto from '../assets/foto-perfil.png'
 import '../styles/components/Hero.css'
 
 const Hero = () => {
