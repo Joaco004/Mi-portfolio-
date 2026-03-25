@@ -92,7 +92,7 @@
 }
 
 @media (max-width: 768px) {
-    .about-sct {
+    .about {
         flex-direction: column;
         padding: 40px 20px;
         gap: 40px;
