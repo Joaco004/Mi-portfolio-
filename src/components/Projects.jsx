@@ -82,7 +82,7 @@ export const proyectos = [
     {
         id: 4,
         state: "Terminado",
-        img: laBristol,
+        img: labristol,
         titulo: "La Bristol",
         tituloLargo: "La Bristol – Sitio Web Oficial de E-Sports (Proyecto Personal)",
         descripcion: "Proyecto personal desarrollado para sumar al portfolio. Sitio web oficial del equipo de e-sports La Bristol con perfiles de jugadores, panel de administración y tienda de merchandising. Desarrollado con React.js y Node.js, integrando Cloudinary para gestión de imágenes y MongoDB para persistencia de datos.",
